@@ -1,4 +1,4 @@
-A todo project made with create-react-app.
+**A todo project made with create-react-app.**
 
 Components used :
 
