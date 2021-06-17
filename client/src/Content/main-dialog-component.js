@@ -5,7 +5,7 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Button from "@material-ui/core/Button";
-import {Divider} from "@material-ui/core/";
+import { Divider } from "@material-ui/core/";
 
 const DialogModal = (props) => {
   const handleClose = () => props.close();
@@ -33,12 +33,8 @@ const DialogModal = (props) => {
             </p>
             <p>
               <strong>Comments : </strong>
+              {data.comment}
             </p>
-            <ul>
-              {data.comments.map((e) => (
-                <li key={e.id}>{e.comment}</li>
-              ))}
-            </ul>
           </div>
         </DialogContentText>
       </DialogContent>

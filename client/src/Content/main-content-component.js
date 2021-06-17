@@ -79,7 +79,7 @@ const Content = (props) => {
 
   const closeDialog = () => {
     setdeleteTaskDialog(false);
-    setshowDialog(true);
+    setshowDialog(false);
   };
 
   const sendNotification = () => {
