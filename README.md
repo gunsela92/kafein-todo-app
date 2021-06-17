@@ -9,7 +9,11 @@ Used Context API.
 To start project ;
 
     cd client
-
+    
+	npm install
+		or
+	yarn install
+	
     npm start
 	    or
     yarn start
