@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Proxima';
-  src: url("./assets/fonts/proxima.otf") format('opentype');
+  src: url("./assets/fonts/proxima.otf") format("opentype");
 }
 
 * {
@@ -8,13 +8,13 @@
 }
 
 main {
-  width:100%;
+  width: 100%;
   padding: 10px;
 }
 
 .menuHeader {
   min-height: 40px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -25,40 +25,40 @@ main {
 }
 
 .menuButton {
-  color:white !important;
+  color: white !important;
   margin-right: 5px;
 }
 
 .menuList {
   justify-content: center !important;
-  height:8rem;
+  height: 8rem;
   flex-direction: column;
   padding-top: 20px !important;
   padding-bottom: 20px !important;
-}
 
-.menuList:hover {
-  background-color:#39DACF !important;
-  color: white;
-  transition: 0.5s;
-  .menuIcons {
-    color:white;
+  &:hover {
+    background-color: #39DACF !important;
+    color: white;
     transition: 0.5s;
+    .menuIcons {
+      color:white;
+      transition: 0.5s;
+    }
   }
-}
 
-.menuList:active {
-  background-color:#39DACF !important;
-  color: white;
+  &:active {
+    background-color: #39DACF !important;
+    color: white;
+  }
 }
 
 .menuIcons {
   min-width: unset !important;
-  svg {
+  > svg {
     font-size: 3rem;
   }
 }
 
 .searchBox {
-  width:100%;
+  width: 100%;
 }
